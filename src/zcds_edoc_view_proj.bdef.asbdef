@@ -1,0 +1,12 @@
+projection;
+
+
+define behavior for ZCDS_EDOC_VIEW_PROJ alias Edocument
+{
+
+  use action pdf_display;
+  use action xml_display;
+  use action document_post;
+  use action fileupload;
+  use action uploadXML;
+}

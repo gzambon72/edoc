@@ -1,0 +1,8 @@
+unmanaged implementation in class zbp_i_upload unique;
+define behavior for ZI_UPLOAD alias Upload
+{
+
+
+  // Action per processare il file XML
+  static action readXMLFile parameter zupload_t result [1] $self;
+}

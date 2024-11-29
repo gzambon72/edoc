@@ -1,0 +1,7 @@
+projection;
+
+define behavior for ZC_UPLOAD alias Upload
+{
+
+  use action readXMLFile;
+}

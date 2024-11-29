@@ -1,0 +1,4 @@
+@EndUserText.label: 'file upload'
+define service ZSRV_FILE_UPLOAD {
+  expose ZI_UPLOAD as FileUpload;
+}
